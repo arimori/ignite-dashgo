@@ -51,7 +51,8 @@ export default function CreateUser() {
           as="form"
           flex="1"
           borderRadius="8"
-          bg="gray.800" p={["6", "8"]}
+          bg="gray.800" 
+          p={["6", "8"]}
           onSubmit={handleSubmit(handleCreateUser)}
         >
           <Heading size="lg" fontWeight="normal">Criar usuário</Heading>

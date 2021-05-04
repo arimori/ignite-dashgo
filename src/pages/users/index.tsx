@@ -4,12 +4,19 @@ import { RiAddLine, RiPencilLine } from 'react-icons/ri';
 import { Pagination } from '../../components/Pagination';
 import { Header } from "../../components/Header";
 import { Sidebar } from '../../components/Sidebar';
+import { useEffect } from 'react';
 
 export default function UserList() {
   const isWideVersion = useBreakpointValue({
     base: false,
     lg: true,
   });
+
+  useEffect(() => {
+    fetch('http://localhost:3000/api/users')
+      .then(response => response.json())
+      .then(data => console.log(data));
+  }, []);
 
   return (
     <Box>
@@ -43,7 +50,8 @@ export default function UserList() {
                 </Th>
 
                 <Th>Usuário</Th>
-                {isWideVersion && <Th>Data de cadastro</Th>}              </Tr>
+                {isWideVersion && <Th>Data de cadastro</Th>}
+              </Tr>
             </Thead>
             <Tbody>
               <Tr>
