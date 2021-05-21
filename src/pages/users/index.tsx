@@ -9,7 +9,6 @@ import { Sidebar } from '../../components/Sidebar';
 import { getUsers, useUsers } from '../../services/hooks/useUsers';
 import { queryClient } from '../../services/queryClient';
 import { api } from '../../services/api';
-import { GetServerSideProps } from 'next';
 
 
 export default function UserList({ users }) {
@@ -28,7 +27,7 @@ export default function UserList({ users }) {
     await queryClient.prefetchQuery(['user', userId], async () => {
       const response = await api.get(`users${userId}`)
 
-      return response.data;
+      return response.data.users;
     }, {
       staleTime: 1000 * 60 * 10 //10 minutos
     });
@@ -115,14 +114,4 @@ export default function UserList({ users }) {
       </Flex>
     </Box>
   );
-}
-
-export const getServerSideProps: GetServerSideProps = async () => {
-  const { users, totalCount } = await getUsers(1)
-
-  return {
-    props: {
-      users,
-    }
-  }
 }
