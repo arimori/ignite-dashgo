@@ -13,16 +13,14 @@
   
 ## 📸 Screenshots
 <p style="text-align: center">
-  <img alt="Dashboard" src="https://github.com/arimori/ignite-money-management/blob/main/src/assets/preview/Dtmoney_dashboard.png" />
-  <img alt="Cadastro" src="https://github.com/arimori/ignite-money-management/blob/main/src/assets/preview/dtMoney_cadastro.png" />
+  <img alt="Dashboard" src="https://github.com/arimori/ignite-dashgo/blob/main/src/previews/dashgo.png" />
 </p>
   
-<p align="left">
+<article align="left">
   DashGo is a simple CMS application developed to study how to build a modern interface and mobile first, including dashboard, charts and form. 
-  Also it's a study application in order to implement form validators, fake API management and built only using ChakraUI as a Design System.
-
-  Futhermore, the UI was built by <a href="https://github.com/Rocketseat">@Rocketseat</a> Team .
-</p>
+  Also it's a study application in order to implement form validators, fake API management and built only using ChakraUI as a Design System. 
+  Futhermore, the UI was built by <a href="https://github.com/Rocketseat">@Rocketseat</a> Team.
+</article>
 
 ## 🚀 Technologies
 * [NextJS](https://nextjs.org/)      
