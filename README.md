@@ -11,7 +11,7 @@
   </sub>
 </div>
   
-## 📸 Screenshots
+## 💡 What is it?
 <p style="text-align: center">
   <img alt="Dashboard" src="https://github.com/arimori/ignite-dashgo/blob/main/src/previews/dashgo.png" />
 </p>
@@ -22,7 +22,7 @@
   Futhermore, the UI was built by <a href="https://github.com/Rocketseat">@Rocketseat</a> Team.
 </article>
 
-## 🚀 Technologies
+## 🚀 Built With
 * [NextJS](https://nextjs.org/)      
 * [Typescript](https://www.typescriptlang.org/)      
 * [React](https://reactjs.org/)      
