@@ -12,15 +12,19 @@
 </div>
   
 ## 💡 What is it?
-<p style="text-align: center">
-  <img alt="Dashboard" src="https://github.com/arimori/ignite-dashgo/blob/main/src/previews/dashgo.png" />
-</p>
+<div>
+  <article align="left">
+      Dashgo is a simple CMS application developed to study how to build a modern interface and mobile first, including dashboard, charts and forms. 
+      Also it's a study application in order to implement form validators, fake API management and built only using ChakraUI as a Design System. 
+      Futhermore, the UI was built by <a href="https://github.com/Rocketseat">@Rocketseat</a> Team.
+  </article>
+  <hr />
+  <p style="text-align: center">      
+    <img alt="Dashboard" src="https://github.com/arimori/ignite-dashgo/blob/main/src/previews/dashgo.png" />
+  </p>
+</div>
   
-<article align="left">
-  Dashgo is a simple CMS application developed to study how to build a modern interface and mobile first, including dashboard, charts and forms. 
-  Also it's a study application in order to implement form validators, fake API management and built only using ChakraUI as a Design System. 
-  Futhermore, the UI was built by <a href="https://github.com/Rocketseat">@Rocketseat</a> Team.
-</article>
+
 
 ## 🚀 Built With
 * [NextJS](https://nextjs.org/)      
