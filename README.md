@@ -31,6 +31,8 @@
 * [Faker](https://www.npmjs.com/package/faker)
 * [Apex Charts](https://apexcharts.com/)
 * [Yup](https://github.com/jquense/yup)
+* [React Hook Form](https://react-hook-form.com/);
+* [React Query](https://react-query.tanstack.com/);
 
 ## :checkered_flag: Instructions
 **Project Download**
