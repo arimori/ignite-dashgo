@@ -1,5 +1,5 @@
 
-<h1 align="center">🎛 DashGo | Ignite</h1>
+<h1 align="center">🎛 Dashgo | Ignite</h1>
 
 <p align="center">
   Dashboard application built with <strong>React</strong>, <strong>NextJS</strong> and <strong>Chakra-UI</strong>.
@@ -17,7 +17,7 @@
 </p>
   
 <article align="left">
-  DashGo is a simple CMS application developed to study how to build a modern interface and mobile first, including dashboard, charts and form. 
+  Dashgo is a simple CMS application developed to study how to build a modern interface and mobile first, including dashboard, charts and forms. 
   Also it's a study application in order to implement form validators, fake API management and built only using ChakraUI as a Design System. 
   Futhermore, the UI was built by <a href="https://github.com/Rocketseat">@Rocketseat</a> Team.
 </article>
